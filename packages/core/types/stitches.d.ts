@@ -12,7 +12,8 @@ export default interface Stitches<
 	Media extends {} = {},
 	Theme extends {} = {},
 	ThemeMap extends {} = {},
-	Utils extends {} = {}
+	Utils extends {} = {},
+	Root extends DocumentOrShadowRoot = Document
 > {
 	config: {
 		prefix: Prefix
@@ -20,6 +21,7 @@ export default interface Stitches<
 		theme: Theme
 		themeMap: ThemeMap
 		utils: Utils
+		root?: Root
 	},
 	prefix: Prefix
 	/** The **prefix** property defined.
