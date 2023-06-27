@@ -1,6 +1,6 @@
 {
 	"name": "@smartlook/stitches-react",
-	"version": "1.2.7",
+	"version": "1.2.7-experimental",
 	"description": "The modern CSS-in-JS library",
 	"type": "module",
 	"main": "dist/index.cjs",
